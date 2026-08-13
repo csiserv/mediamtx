@@ -110,4 +110,4 @@ require (
 
 replace github.com/quic-go/webtransport-go => github.com/aler9/webtransport-go v0.0.0-20260604211153-27af9c338497
 
-replace github.com/bluenviron/mediacommon/v2 => github.com/csiserv/mediacommon/v2 v2.9.1-0.20260813134311-eb7b36421bdb
+replace github.com/bluenviron/mediacommon/v2 => github.com/csiserv/mediacommon/v2 v2.9.1-0.20260813175831-9e9d4790fd06
