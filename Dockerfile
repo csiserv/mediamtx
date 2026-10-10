@@ -8,7 +8,7 @@
 # instead of upstream's multi-arch release-tarball pipeline (scripts/binaries.mk),
 # since this is a single-arch dev/prod deployment, not a public release.
 
-FROM golang:1.26-alpine3.23 AS build
+FROM golang:1.26.9-alpine3.23 AS build
 RUN apk add --no-cache git
 WORKDIR /s
 COPY . ./
